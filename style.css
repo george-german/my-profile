@@ -169,15 +169,10 @@ img{
 
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #69959E;
   color: black;
 }
 
-
-.topnav a.active {
-  background-color: #69959E;
-  color: white;
-}
 
 @media (max-width: 960px) {
 
