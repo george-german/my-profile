@@ -1,0 +1,198 @@
+/* Colors and Fonts */
+
+body{
+	background: #F2F2F2;
+	color: #385170;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+}
+
+h1,h2{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	color: #69959E;
+	font-size: 40px;
+	font-weight: 900;
+
+}
+
+
+h2{
+	color: #1C416D;
+	font-size: 24px;
+	font-weight:600;
+
+}
+
+h3{
+	color:#113149;
+	font-size: 20px;
+	font-weight:600;
+
+}
+
+a{
+	text-decoration: none;
+	color: #1D84B5;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	transform: color 0.3s ease;
+}
+a:hover {
+	color: #044389;
+}
+
+img{
+	width:  20%;
+	height: 20%;
+
+}
+
+
+
+
+/* Custome Design With ids and Class */
+
+#quote{
+	font-style: italic;
+}
+
+.container{
+	width: 1000px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+.card-white-center{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: center;
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px;
+	text-align: justify;
+}
+
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-blue{
+	background-color: #143B59;
+	color: white;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: white;
+	color: #143B59;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: rgb(220,220,220);
+}
+
+
+.list-inline i:hover{
+	font-size: 50px;
+	color: rgb(150,150,150);
+}
+
+#introduction p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+.topnav {
+  background-color: #142D4C;
+  overflow: hidden;
+  width: 950px;
+  align-content: center;
+  text-align: center;
+  padding: 14px 16px;
+  margin: 0px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+
+.topnav a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #69959E;
+  color: white;
+}
+
+@media (max-width: 960px) {
+
+  .topnav {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .topnav {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .topnav {
+    width: 300px;
+  }
